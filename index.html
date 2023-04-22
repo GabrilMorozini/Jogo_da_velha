@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <title>Jogo da Velha</title>
+    <link rel="icon" type="image/png" href="./img/icon.png">
+</head>
+
+<body>
+    <div class="center">
+        <main>
+            <div class="control">
+                <div class="score">
+                    <p>X</p>
+                    <p class="mx">-</p>
+                    <p id="scoreX">0</p>
+                </div>
+                <div class="score">
+                    <p>O</p>
+                    <p class="mx">-</p>
+                    <p id="scoreO">0</p>
+                </div>
+                <div id="move">
+                    <p>Clique para iniciar o jogo</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="game">
+                    <div>
+                        <div id="0" class="square mb"></div>
+                        <div id="1" class="square mb ml"></div>
+                        <div id="2" class="square mb ml"></div>
+                    </div>
+                    <div>
+                        <div id="3" class="square mb"></div>
+                        <div id="4" class="square mb ml"></div>
+                        <div id="5" class="square mb ml"></div>
+                    </div>
+                    <div>
+                        <div id="6" class="square"></div>
+                        <div id="7" class="square ml"></div>
+                        <div id="8" class="square ml"></div>
+                    </div>
+                </div>
+                <div class="win">
+
+                </div>
+            </div>
+            <button id="restart">Reiniciar Jogo</button>
+        </main>
+        <!-- FOOTER -->
+        <footer class="text-center">
+            <a target="_blank" href="https://github.com/GabrilMorozini/Jogo_da_velha">
+                Copyright &copy; 2023 Gabriel Morozini
+            </a>
+        </footer>
+    </div>
+
+    <script src="./scripts/game.js"></script>
+    <script src="./scripts/interface.js"></script>
+</body>
+
+</html>
